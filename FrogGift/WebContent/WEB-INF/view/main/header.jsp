@@ -4,6 +4,18 @@
 
 <div class="login_section">
 	<div class="login_wrap">
+		<div class="wrapper left">
+			<span>공지사항</span>
+		</div>
+		<div class="wrapper left">
+			<span>자주묻는 질문(FAQ)</span>
+		</div>
+		<div class="wrapper left">
+			<span>이용후기</span>
+		</div>
+		<div class="wrapper left">
+			<span>상품 Q &amp; A</span>
+		</div>
 		<div class="wrapper">
 			<i class="fa fa-lock" aria-hidden="true"></i>
 			<span>로그인</span>
@@ -22,9 +34,9 @@
 </div>
 <div class="menu_section">
 	<ul>
-		<li>구글기프트카드 구매</li>
-		<li>게임쿠폰 구매</li>
-		<li onclick="location.href='/trade'">문화상품권 현금전환</li>
-		<li>입금확인 요청</li>
+		<li class="menu m1" onclick="location.href='/gift'">구글기프트카드 구매</li>
+		<li class="menu m2">게임쿠폰 구매</li>
+		<li class="menu m3" onclick="location.href='/trade'">문화상품권 현금전환</li>
+		<li class="menu m4">입금확인 요청</li>
 	</ul>
 </div>
